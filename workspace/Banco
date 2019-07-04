@@ -1,0 +1,9 @@
+Host ec2-54-225-116-36.compute-1.amazonaws.com
+Database d4crp7mq6e1tv0
+User zbywsbksnkdszv
+Port 5432
+Password fd5bf0c40789dcb0d0f411ca491974ce45036e811141eb60ad65b7e6290e311a
+URI postgres://zbywsbksnkdszv:fd5bf0c40789dcb0d0f411ca491974ce45036e811141eb60ad65b7e6290e311a@ec2-54-225-116-36.compute-1.amazonaws.com:5432/d4crp7mq6e1tv0
+Heroku CLI heroku pg:psql postgresql-metric-70010 --app aulahaskell10
+
+psql -h ec2-54-225-116-36.compute-1.amazonaws.com -U zbywsbksnkdszv -d d4crp7mq6e1tv0
